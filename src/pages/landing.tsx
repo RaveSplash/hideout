@@ -1,9 +1,12 @@
-import { Box, Heading } from "@chakra-ui/react";
+import { Box, Flex, Heading } from "@chakra-ui/react";
 
 export function LandingPage() {
   return (
-    <Box bg={"blue.300"}>
-      <Heading>Landing Page</Heading>
+    <Box maxWidth={"100%"}>
+      <Flex maxWidth={"100%"}>
+        {" "}
+        <Heading>Landing Page</Heading>
+      </Flex>
     </Box>
   );
 }
